@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Violenta_Solid_Unicase";
+    src: local("Violenta_Solid_Unicase"), url("../../assets/fonts/Violenta_Solid_Unicase.ttf") format("truetype");
+    font-weight: bold;
+}
+
+#weatherBodyContainer {
+    width: 600px;
+    height: 400px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 30px;
+}
+
+#halfDiv {
+    height: 60%;
+    width: 100%;
+    border-bottom: 5px solid #ffffff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#topDisplayCont {
+    flex-direction: row;
+    align-items: center;
+}
+
+#topDisplayNumber {
+    flex-direction: column;
+}
+
+#bigtempText {
+    font-size: 390%;
+    font-weight: 600;
+    font-family: "Violenta_Solid_Unicase";
+}
+
+#weatherDescription {
+    font-size: 130%;
+    font-weight: 200;
+}
+
+#today_title {
+    font-size: 150%;
+    font-weight: 200;
+}
+
+#bottomDivContainer {
+    height: 40%;
+    width: 100%;
+    flex-direction: row;
+}
+
+.bottomDiv {
+    height: 100%;
+    width: 25%;
+    border-right: 5px solid #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottomDiv_ {
+    display: none;
+}
+
+.imgSmall {
+    filter: contrast(1000%);
+}
+
+
+.day {
+    font-size: 100%;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+.temp {
+    font-size: 150%;
+    font-weight: 600;
+    font-family: "Violenta_Solid_Unicase";
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 610px) {
+    #weatherBodyContainer {
+        width: 90vw;
+        height: 320px;
+    }
+    #bottomDivContainer {
+        height: 90px;
+        width: 100%;
+        flex-direction: column;
+    }
+    .bottomDiv {
+        width: 95%;
+        border-right: 0px;
+        border-bottom: 5px solid #ffffff;
+        flex-direction: row;
+        align-items: center;
+        padding-right: 2.5%;
+        padding-left: 2.5%;
+        justify-content: space-between;
+    }
+    #halfDiv {
+        display: none;
+    }
+    #bottomDiv_ {
+        display: flex;
+    }
+}
