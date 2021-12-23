@@ -1,6 +1,6 @@
 # React Weather App
 
-This weather app has 3 predefined cities which can be changed by changing the city name and coordinates in the files. The current city names and Calgary, Moscow and Lagos. This site is hosted on heroku at [Ugos_React Weather App](https://nameless-spire-27832.herokuapp.com/) and it uses OPenWeatherMap as the API.
+This weather app has 3 predefined cities which can be changed by changing the city name and coordinates in the files. The current city names and Calgary, Moscow and Lagos. This site is hosted on heroku at [Ugos_React Weather App](https://nameless-spire-27832.herokuapp.com/) and it uses [OpenWeatherMap](https://openweathermap.org/) as the API.
 
 Here is a brief video showing how it looks.
 
